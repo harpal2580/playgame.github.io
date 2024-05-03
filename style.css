@@ -115,7 +115,7 @@ p {
 .game-ads {
   border: 2px solid transparent;
   /* background-image: url(https://i.pinimg.com/564x/a9/f5/3d/a9f53de41dbd08577426966a41a8ec18.jpg); */
-  background-image: url(media/remote1.jpg);
+  background-image: url(remote1.jpg);
   height: 120vh;
   background-repeat: no-repeat;
   background-size: cover;
