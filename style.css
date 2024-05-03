@@ -1,0 +1,971 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.gamezone {
+  border: transparent;
+  height: 100vh;
+  background-image: url(https://i.pinimg.com/564x/86/3d/40/863d40394da27709563b54770d05e8ee.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+}
+.gamezone h2 {
+  padding-top: 45vh;
+  font-size: 10vh;
+  letter-spacing: 4vh;
+  color: white;
+  border: transparent;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: underline orangered;
+}
+.game-details {
+  /* border: 2px solid red; */
+  height: 100vh;
+  margin-bottom: 10vh;
+}
+.game-details .popular {
+  margin-top: 4vh;
+  text-align: center;
+  font-size: 5vh;
+  font-family: "Inconsolata", monospace;
+}
+.game-details .device {
+  font-family: "Bebas Neue", sans-serif;
+  /* border: 2px solid green; */
+  margin-top: 10vh;
+  margin-left: 10vh;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.game-details .device .pc {
+  margin-left: 10vh;
+  border: 2px solid brown;
+  border-radius: 3.4vh 3.4vh 3vh 3vh;
+  width: 40vh;
+}
+.game-details .device .pc img {
+  width: 40vh;
+  border-radius: 3vh 3vh 0vh 0vh;
+}
+.game-details .device .pc h2 {
+  color: orangered;
+}
+.game-details .device .pc h2,
+.info {
+  /* border: 2px solid yellow; */
+  padding-right: 4px;
+  text-align: right;
+  color: black;
+}
+
+/* playstation */
+/* ps is the short name of playstation */
+.game-details .device .ps {
+  margin-left: 10vh;
+  border: 2px solid brown;
+  border-radius: 3.4vh 3.4vh 3vh 3vh;
+  width: 40vh;
+}
+.game-details .device .ps img {
+  width: 40vh;
+  height: 48vh;
+  border-radius: 3vh 3vh 0vh 0vh;
+}
+.game-details .device .ps h2 {
+  color: orangered;
+}
+.game-details .device .ps h2,
+p {
+  /* border: 2px solid yellow; */
+  padding-right: 4px;
+  text-align: right;
+}
+
+/* x-box is the console gaming device */
+.game-details .device .smart-phone {
+  margin-left: 10vh;
+  border: 2px solid brown;
+  border-radius: 3.4vh 3.4vh 3vh 3vh;
+  width: 40vh;
+}
+.game-details .device .smart-phone img {
+  width: 40vh;
+  height: 48vh;
+  border-radius: 3vh 3vh 0vh 0vh;
+}
+.game-details .device .smart-phone h2 {
+  color: orangered;
+}
+.game-details .device .smart-phone h2,
+p {
+  /* border: 2px solid yellow; */
+  padding-right: 4px;
+  text-align: right;
+}
+.device .pc,
+.ps,
+.smart-phone {
+  padding-bottom: 2vh;
+}
+
+.game-ads {
+  border: 2px solid transparent;
+  /* background-image: url(https://i.pinimg.com/564x/a9/f5/3d/a9f53de41dbd08577426966a41a8ec18.jpg); */
+  background-image: url(media/remote1.jpg);
+  height: 120vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  font-family: "Bebas Neue", sans-serif;
+
+  /* margin-top: 2vh; */
+  /* opacity: 0.9; */
+}
+.game-ads .game-title {
+  text-align: center;
+  position: relative;
+  /* border: 2px solid green; */
+  /* padding-top: 5vh; */
+}
+.game-ads .game-title h2 {
+  padding: 1vh 5vh;
+  border: 2px solid black;
+  border-radius: 5vh;
+  background-color: rgb(49, 49, 175);
+  color: white;
+  width: 50vh;
+  margin-top: -4vh;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 85vh;
+}
+.ps-card {
+  /* border: 2px solid green; */
+  /* background-color: black; */
+  margin-top: 20vh;
+  /* align-items: center; */
+  padding-left: 30vh;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.ps-card .ps1 {
+  text-align: right;
+  /* border: 2px solid rgb(0, 21, 255); */
+  /* box-shadow: 9px 9px 5px black; */
+  width: 40vh;
+  padding-bottom: 4vh;
+}
+.ps-card .ps1,
+.playstation2,
+.playstation5 {
+  border: 2px solid black;
+  border-radius: 3vh;
+  box-shadow: 8px -7px 7px black;
+}
+.ps-card .ps1 img,
+.playstation2 img,
+.playstation5 img {
+  border-radius: 3vh;
+}
+.ps-card .ps1 img {
+  width: 40vh;
+  /* border: 2px solid blue; */
+  background-color: white;
+}
+.ps1 h2,
+h3,
+p {
+  padding-right: 2vh;
+}
+.ps-card .ps1 h2,
+p {
+  color: white;
+}
+.ps-card .ps1 p,
+.playstation2 p,
+.playstation5 p {
+  color: white;
+}
+.ps1 h3 {
+  color: rgba(179, 29, 29, 0.872);
+}
+
+.ps-card .playstation2 {
+  text-align: right;
+  /* border: 2px solid rgb(0, 21, 255); */
+  width: 40vh;
+  padding-bottom: 4vh;
+}
+.ps-card .playstation2 img {
+  width: 40vh;
+  /* border: 2px solid blue; */
+  background-color: white;
+}
+.playstation5 h2,
+h3,
+p {
+  padding-right: 2vh;
+}
+.ps-card .playstation2 h2,
+p {
+  color: white;
+}
+.playstation2 h3 {
+  color: rgba(179, 29, 29, 0.872);
+}
+
+.ps-card .playstation5 {
+  text-align: right;
+  /* border: 2px solid rgb(0, 21, 255); */
+  width: 40vh;
+  padding-bottom: 4vh;
+}
+.ps-card .playstation5 img {
+  width: 40vh;
+  /* border: 2px solid blue; */
+  background-color: white;
+}
+.playstation5 h2,
+h3,
+p {
+  padding-right: 2vh;
+}
+.ps-card .playstation5 h2,
+p {
+  color: white;
+}
+.playstation5 h3 {
+  color: rgba(179, 29, 29, 0.872);
+}
+/* -----computer device----- */
+.computer-details {
+  /* border: 2px solid red; */
+  font-family: "Bebas Neue", sans-serif;
+  height: 100vh;
+  margin-bottom: 10vh;
+}
+.computer-details .popular {
+  margin-top: 4vh;
+  text-align: center;
+  font-size: 5vh;
+}
+.computer-details .device {
+  /* border: 2px solid green; */
+  margin-top: 10vh;
+  margin-left: 10vh;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.computer-details .device .pc {
+  margin-left: 10vh;
+  border: 2px solid brown;
+  border-radius: 3.4vh 3.4vh 3vh 3vh;
+  width: 40vh;
+}
+.computer-details .device .pc img {
+  width: 40vh;
+  border-radius: 3vh 3vh 0vh 0vh;
+}
+.computer-details .device .pc h2 {
+  color: orangered;
+}
+.game-details .device .pc h2,
+.info {
+  /* border: 2px solid yellow; */
+  padding-right: 4px;
+  text-align: right;
+  color: black;
+}
+
+/* -----computer details----- */
+.computer-details .device .ps {
+  margin-left: 10vh;
+  border: 2px solid brown;
+  border-radius: 3.4vh 3.4vh 3vh 3vh;
+  width: 40vh;
+}
+.computer-details .device .ps img {
+  width: 40vh;
+  height: 48vh;
+  border-radius: 3vh 3vh 0vh 0vh;
+}
+.computer-details .device .ps h2 {
+  color: orangered;
+}
+.computer-details .device .ps h2,
+p {
+  /* border: 2px solid yellow; */
+  padding-right: 4px;
+  text-align: right;
+}
+
+/* x-box is the console gaming device */
+.computer-details .device .smart-phone {
+  margin-left: 10vh;
+  border: 2px solid brown;
+  border-radius: 3.4vh 3.4vh 3vh 3vh;
+  width: 40vh;
+}
+.computer-details .device .smart-phone img {
+  width: 40vh;
+  height: 48vh;
+  border-radius: 3vh 3vh 0vh 0vh;
+}
+.computer-details .device .smart-phone h2 {
+  color: orangered;
+}
+.computer-details .device .smart-phone h2,
+p {
+  /* border: 2px solid yellow; */
+  padding-right: 4px;
+  text-align: right;
+}
+.device .pc,
+.ps,
+.smart-phone {
+  padding-bottom: 2vh;
+}
+/* ----- computer game----- */
+.computer-ads {
+  border: 2px solid transparent;
+  /* background-image: url(https://i.pinimg.com/564x/a9/f5/3d/a9f53de41dbd08577426966a41a8ec18.jpg); */
+  background-image: url(https://i.pinimg.com/564x/51/c3/88/51c388cff2073569458e101814a1962a.jpg);
+  height: 120vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  font-family: "Bebas Neue", sans-serif;
+
+  /* margin-top: 2vh; */
+  /* opacity: 0.9; */
+}
+/* .computer-ads.game-intro video{
+      margin-top: -4vh;
+      z-index: -1;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: relative;
+      width: 229.2vh;
+      background-attachment: fixed;
+  } */
+.computer-ads .computer-title {
+  text-align: center;
+  position: relative;
+  /* border: 2px solid green; */
+  /* padding-top: 5vh; */
+}
+.computer-ads .computer-title h2 {
+  padding: 1vh 5vh;
+  border: 2px solid black;
+  border-radius: 5vh;
+  background-color: rgb(49, 49, 175);
+  color: white;
+  width: 50vh;
+  margin-top: -4vh;
+  margin-left: 85vh;
+}
+.computer-card {
+  /* border: 2px solid green; */
+  /* background-color: black; */
+  margin-top: 20vh;
+  /* align-items: center; */
+  padding-left: 30vh;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.computer-card .computer1 {
+  text-align: right;
+  /* border: 2px solid rgb(0, 21, 255); */
+  /* box-shadow: 9px 9px 5px black; */
+  width: 40vh;
+  padding-bottom: 4vh;
+}
+.computer-card .computer1,
+.computer2,
+.computer5 {
+  border: 2px solid black;
+  border-radius: 3vh;
+  box-shadow: 8px -7px 7px black;
+}
+.computer-card .computer1 img,
+.computer2 img,
+.computer5 img {
+  border-radius: 3vh;
+}
+.computer-card .computer1 img {
+  width: 40vh;
+  /* border: 2px solid blue; */
+  background-color: white;
+}
+.computer1 h2,
+h3,
+p {
+  padding-right: 2vh;
+}
+.computer-card .computer1 h2,
+p {
+  color: black;
+}
+.computer1 h3 {
+  color: gba(179, 29, 29, 0.872);
+  /* color: black; */
+}
+
+.computer-card .computer2 {
+  text-align: right;
+  /* border: 2px solid rgb(0, 21, 255); */
+  width: 40vh;
+  padding-bottom: 4vh;
+}
+.computer-card .computer2 img {
+  width: 40vh;
+  height: 50vh;
+  /* border: 2px solid blue; */
+  background-color: white;
+}
+.computer5 h2,
+h3,
+p {
+  padding-right: 2vh;
+}
+.computer-card .computer2 h2,
+p {
+  color: black;
+}
+.computer-card .computer1 p,
+.computer2 p,
+.computer5 p {
+  color: black;
+}
+.computer2 h3 {
+  color: rgba(179, 29, 29, 0.872);
+}
+
+.computer-card .computer5 {
+  text-align: right;
+  /* border: 2px solid rgb(0, 21, 255); */
+  width: 40vh;
+  padding-bottom: 4vh;
+}
+.computer-card .computer5 img {
+  width: 40vh;
+  height: 50vh;
+  /* border: 2px solid blue; */
+  background-color: white;
+}
+.computer5 h2,
+h3,
+p {
+  padding-right: 2vh;
+}
+.computer-card .computer5 h2,
+p {
+  color: black;
+}
+.computer5 h3 {
+  color: rgba(179, 29, 29, 0.872);
+}
+
+/* -----mobile responsive scree----- */
+@media only screen and (max-width: 1140px) {
+  .gamezone {
+    border: transparent;
+    width: 94.2vh;
+    height: 150vh;
+    background-image: url(https://i.pinimg.com/564x/86/3d/40/863d40394da27709563b54770d05e8ee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+  }
+  .gamezone h2 {
+    padding-top: 60vh;
+    font-size: 10vh;
+    letter-spacing: 4vh;
+    color: white;
+    border: transparent;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    text-decoration: none;
+    text-shadow: 2vh 1vh 2vh red;
+  }
+  /* -----about section----- */
+  .game-details {
+    /* border: 2px solid red; */
+    height: 100vh;
+    margin-bottom: 10vh;
+  }
+  .game-details .popular {
+    /* border: 2px solid red; */
+    width: 90vh;
+    margin-top: 4vh;
+    text-align: center;
+    font-size: 5vh;
+    font-family: "Inconsolata", monospace;
+  }
+  .game-details .device {
+    font-family: "Bebas Neue", sans-serif;
+    /* border: 2px solid green; */
+    margin-top: 10vh;
+    margin-left: auto;
+    width: 94vh;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .game-details .device .pc {
+    margin-left: 5vh;
+    border: 5px solid brown;
+    border-radius: 3.4vh 3.4vh 3vh 3vh;
+    width: 40vh;
+  }
+  .game-details .device .pc img {
+    width: 40vh;
+    border-radius: 3vh 3vh 0vh 0vh;
+  }
+  .game-details .device .pc h2 {
+    color: orangered;
+    font-size: 5vh;
+  }
+  /* 😑😑😑😑😑😑 */
+  .game-details .device .pc h2,
+  .info {
+    /* border: 2px solid yellow; */
+    padding-right: 4px;
+    font-size: 3vh;
+    text-align: right;
+    color: black;
+  }
+  /* playstation */
+  /* ps is the short name of playstation */
+  .game-details .device .ps {
+    margin-left: -4vh;
+    border: 5px solid brown;
+    border-radius: 3.4vh 3.4vh 3vh 3vh;
+    width: 40vh;
+  }
+  .game-details .device .ps img {
+    width: 40vh;
+    height: 48vh;
+    border-radius: 3vh 3vh 0vh 0vh;
+  }
+  .game-details .device .ps h2 {
+    color: orangered;
+    font-size: 3vh;
+  }
+  .game-details .device .ps h2,
+  p {
+    /* border: 2px solid yellow; */
+    padding-right: 4px;
+    text-align: right;
+  }
+  /* x-box is the console gaming device */
+  .game-details .device .smart-phone {
+    margin-left: 5vh;
+    margin-top: 5vh;
+    border: 5px solid brown;
+    border-radius: 3.4vh 3.4vh 3vh 3vh;
+    width: 40vh;
+  }
+  .game-details .device .smart-phone img {
+    width: 40vh;
+    height: 48vh;
+    border-radius: 3vh 3vh 0vh 0vh;
+  }
+  .game-details .device .smart-phone h2 {
+    color: orangered;
+    font-size: 3vh;
+  }
+  .game-details .device .smart-phone h2,
+  p {
+    /* border: 2px solid yellow; */
+    padding-right: 4px;
+    text-align: right;
+  }
+  .device .pc,
+  .ps,
+  .smart-phone {
+    padding-bottom: 2vh;
+  }
+  .game-ads {
+    border: 2px solid transparent;
+    /* background-image: url(https://i.pinimg.com/564x/a9/f5/3d/a9f53de41dbd08577426966a41a8ec18.jpg); */
+    /* background-image: url(/media/remote1.jpg); */
+    background-image: url(https://i.pinimg.com/564x/b7/b2/52/b7b252d4474250eb2bcb32522d819cf0.jpg);
+    height: 200vh;
+    width: 94vh;
+    /* border: 2px solid red; */
+    margin-top: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    font-family: "Bebas Neue", sans-serif;
+
+    /* margin-top: 2vh; */
+    /* opacity: 0.9; */
+  }
+  .game-ads .game-title {
+    text-align: center;
+    margin-left: -60vh;
+    margin-top: 1vh;
+    position: relative;
+    /* border: 2px solid green; */
+    /* padding-top: 5vh; */
+  }
+  .game-ads .game-title h2 {
+    padding: 1vh 5vh;
+    /* border: 2px solid black; */
+    box-shadow: 2vh 1vh 4vh white;
+    border-top: 1vh solid orangered;
+    border-radius: 5vh;
+    background-color: rgb(49, 49, 175);
+    color: white;
+    width: 40vh;
+    margin-top: -4vh;
+    font-size: 5vh;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 85vh;
+  }
+  .ps-card {
+    /* border: 2px solid green; */
+    /* background-color: black; */
+    /* margin-top: 10vh; */
+    /* align-items: center; */
+    padding-left: 5vh;
+    /* padding-top: 15vh; */
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .ps-card .ps1 {
+    text-align: right;
+    /* border: 2px solid rgb(0, 21, 255); */
+    /* box-shadow: 9px 9px 5px black; */
+    width: 40vh;
+    padding-bottom: 4vh;
+  }
+  .ps-card .ps1,
+  .playstation2,
+  .playstation5 {
+    border: 5px solid black;
+    border-radius: 3vh;
+    box-shadow: 9px 7px 5px white;
+  }
+  .ps-card .ps1 img {
+    width: 40vh;
+    /* border: 2px solid blue; */
+    background-color: white;
+  }
+  .ps1 h2,
+  h3 {
+    padding-top: 2vh;
+    padding-right: 2vh;
+    font-size: 4vh;
+  }
+  .ps1 p {
+    padding-top: 2vh;
+    padding-right: 2vh;
+    font-size: 3.4vh;
+  }
+  .ps-card .ps1 h2,
+  p {
+    color: white;
+  }
+  .ps1 h3 {
+    color: #4267b2;
+    font-size: 4vh;
+    text-shadow: 9px 9px 5px white;
+  }
+  .ps-card .playstation2 {
+    text-align: right;
+    /* border: 2px solid rgb(0, 21, 255); */
+    width: 40vh;
+    padding-bottom: 4vh;
+  }
+  .ps-card .playstation2 img {
+    width: 40vh;
+    height: 50vh;
+    /* border: 2px solid blue; */
+    background-color: white;
+  }
+  /* .playstation5 h2,
+  h3,
+  p {
+    padding-right: 2vh;
+    padding-top: 1vh;
+  } */
+  .ps-card .playstation2 h2,
+  p {
+    color: white;
+    /* text-shadow: 9px 10px 2px red; */
+    font-size: 4vh;
+  }
+  .playstation2 h3 {
+    color: #4267b2;
+    font-size: 4vh;
+    text-shadow: 9px 9px 5px white;
+  }
+  .playstation2 h2,
+  h3,
+  p {
+    padding-top: 2vh;
+  }
+  .ps-card .playstation5 {
+    text-align: right;
+    /* border: 2px solid rgb(0, 21, 255); */
+    width: 40vh;
+    padding-bottom: 4vh;
+    margin-top: 5vh;
+  }
+  .ps-card .playstation5 img {
+    width: 40vh;
+    /* border: 2px solid blue; */
+    background-color: white;
+  }
+  .playstation5 h2,
+  h3,
+  p {
+    padding-right: 2vh;
+  }
+  .ps-card .playstation5 h2 {
+    margin-top: 3vh;
+    font-size: 4vh;
+    color: white;
+  }
+  .ps-card .playstation5 p {
+    color: white;
+  }
+  .playstation5 h3 {
+    color: #4267b2;
+    font-size: 4vh;
+    text-shadow: 9px 9px 5px white;
+  }
+  /* -----computer device----- */
+  .computer-details {
+    /* border: 2px solid red; */
+    font-family: "Bebas Neue", sans-serif;
+    height: 200vh;
+    width: 94vh;
+    margin-bottom: 10vh;
+  }
+  .computer-details .popular {
+    /* border: 2px solid green; */
+    margin-top: 4vh;
+    text-align: center;
+    font-size: 5vh;
+  }
+  .computer-details .popular h2 {
+    border: 2px solid #4267b2;
+    background-color: #4267b2;
+    color: white;
+    border-radius: 10vh;
+    margin-left: 15vh;
+    width: 60vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+  .computer-details .device {
+    /* border: 2px solid green; */
+    margin-top: 10vh;
+    margin-left: -9vh;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .computer-details .device .pc {
+    margin-left: 10vh;
+    border: 5px solid brown;
+    border-radius: 3.4vh 3.4vh 3vh 3vh;
+    width: 40vh;
+  }
+  .computer-details .device .pc img {
+    width: 40vh;
+    border-radius: 3vh 3vh 0vh 0vh;
+  }
+  .computer-details .device .pc h2 {
+    font-size: 4vh;
+    color: orangered;
+  }
+  .computer-details .device .pc h2,
+  .info {
+    /* border: 2px solid yellow; */
+    padding-right: 4px;
+    text-align: right;
+    color: black;
+  }
+  .computer-details .device .pc p {
+    font-size: 3vh;
+  }
+  /* -----computer details----- */
+  .computer-details .device .ps {
+    margin-left: 4vh;
+    border: 5px solid brown;
+    border-radius: 3.4vh 3.4vh 3vh 3vh;
+    width: 40vh;
+  }
+  .computer-details .device .ps img {
+    width: 40vh;
+    height: 48vh;
+  }
+  .computer-details .device .ps img {
+    width: 40vh;
+    height: 48vh;
+    border-radius: 3vh 3vh 0vh 0vh;
+  }
+  .computer-details .device .ps h2 {
+    color: orangered;
+    font-size: 4vh;
+  }
+  .computer-details .device .ps h2,
+  p {
+    /* border: 2px solid yellow; */
+    padding-right: 4px;
+    text-align: right;
+  }
+  /* x-box is the console gaming device */
+  .computer-details .device .smart-phone {
+    margin-left: 10vh;
+    margin-top: 5vh;
+    border: 5px solid brown;
+    border-radius: 3.4vh 3.4vh 3vh 3vh;
+    width: 40vh;
+  }
+  .computer-details .device .smart-phone img {
+    width: 40vh;
+    height: 48vh;
+    border-radius: 3vh 3vh 0vh 0vh;
+  }
+  .computer-details .device .smart-phone h2 {
+    color: orangered;
+    font-size: 4vh;
+  }
+  .computer-details .device .smart-phone h2,
+  p {
+    /* border: 2px solid yellow; */
+    padding-right: 4px;
+    text-align: right;
+  }
+  .device .pc,
+  .ps,
+  .smart-phone {
+    padding-bottom: 2vh;
+  }
+  /* ----- computer game----- */
+  .computer-ads {
+    /* border: 2px solid brown; */
+    /* border: 2px solid transparent; */
+    /* background-image: url(https://i.pinimg.com/564x/a9/f5/3d/a9f53de41dbd08577426966a41a8ec18.jpg); */
+    background-image: url(https://i.pinimg.com/564x/06/98/5b/06985b5ea1b06390a089524146777da5.jpg);
+    height: 185vh;
+    width: 94vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 5px solid blue; */
+    /* background-position: center; */
+    background-attachment: fixed;
+    position: relative;
+    font-family: "Bebas Neue", sans-serif;
+
+    /* margin-top: 2vh; */
+    /* opacity: 0.9; */
+  }
+  .computer-ads .computer-title {
+    text-align: center;
+    margin-left: -60vh;
+    position: relative;
+    /* border: 2px solid green; */
+    /* padding-top: 5vh; */
+  }
+  .computer-ads .computer-title h2 {
+    padding: 1vh 5vh;
+    border: 2px solid black;
+    border-radius: 5vh;
+    background-color: rgb(49, 49, 175);
+    color: white;
+    width: 30vh;
+    font-size: 5vh;
+    margin-top: -4vh;
+    margin-left: 85vh;
+  }
+  .computer-card {
+    /* border: 2px solisd red; */
+    /* background-color: black; */
+    margin-top: 7vh;
+    margin-left: -26vh;
+    /* align-items: center; */
+    /* padding-left: 30vh; */
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .computer-card .computer1 {
+    text-align: right;
+    /* border: 2px solid rgb(0, 21, 255); */
+    /* box-shadow: 9px 9px 5px black; */
+    width: 40vh;
+    padding-bottom: 4vh;
+  }
+  .computer-card .computer1,
+  .computer2,
+  .computer5 {
+    border: 2px solid black;
+    border-radius: 3vh;
+    box-shadow: 8px -7px 7px black;
+  }
+  .computer-card .computer1 img,
+  .computer2 img,
+  .computer5 img {
+    border-radius: 3vh;
+  }
+  .computer-card .computer1 img {
+    width: 40vh;
+    /* border: 2px solid blue; */
+    background-color: white;
+  }
+  .computer1 h2,
+h3,
+p {
+  padding-right: 2vh;
+}
+.computer-card .computer1 h2{
+    font-size: 4vh;
+  color: black;
+}
+.computer1 h3 {
+    color: rgba(179, 29, 29, 0.872);
+    /* color: black; */
+  }
+  .computer-card .computer2 {
+    text-align: right;
+    /* border: 2px solid rgb(0, 21, 255); */
+    width: 40vh;
+    padding-bottom: 4vh;
+  }
+  .computer2 h2,h3,p {
+  padding-right: 2vh;
+}
+  .computer-card .computer2 h2,
+p {
+    font-size: 4vh;
+  color: black;
+}
+.computer-card .computer5 h2,
+p {
+  color: black;
+  font-size: 4vh;
+}
+.computer-card .computer5 {
+    text-align: right;
+    /* border: 2px solid rgb(0, 21, 255); */
+    width: 40vh;
+    margin-top: 10vh;
+    padding-bottom: 4vh;
+  }
+}
